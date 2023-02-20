@@ -6,6 +6,10 @@ body {
   padding: 60px;
 }
 
+h3 {
+  padding: 5px;
+}
+
 input {
   color: gray;
   font-size: 1.2rem;
