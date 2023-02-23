@@ -21,6 +21,7 @@ const AddCategory = ({setCategories}) => {
     return (
         <form onSubmit={handleSubmit}>
             <input
+                placeholder='Escriba lo que desea buscar y luego presione enter'
                 type="text"
                 value={inputValue}
                 onChange={handleInputChange}
