@@ -8,8 +8,8 @@ const GifExpertApp = (/*{defaultCategories = []}*/) => {
     //const [categories, setCategories] = useState(defaultCategories); para fines de las pruebas unitarias
 
     return (
-        <>
-            <h2>GifExpertApp</h2>
+        <div className='container'>
+            <h2 className='mt-4'>GifExpertApp</h2>
             <AddCategory setCategories={setCategories} />
             <hr />
 
@@ -23,7 +23,7 @@ const GifExpertApp = (/*{defaultCategories = []}*/) => {
                     ))
                 }
             </ol>
-        </>
+        </div>
     )
 }
 
